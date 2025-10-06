@@ -1,0 +1,12 @@
+-- após subir a aplicação e executá-la conectando ao banco de dados e consequentemente gerando as tabelas nele, será possível popular a tabela "filmes" manualmente para população inicial com dados, conforme exemplo abaixo.
+
+INSERT INTO filmes (ano, classificacao, duracao, genero, plano_minimo, titulo) VALUES (1972, 16, 5, 'Drama', 'BASIC', 'O Poderoso Chefão');
+INSERT INTO filmes (ano, classificacao, duracao, genero, plano_minimo, titulo) VALUES (1993, 16, 7, 'Drama', 'BASIC', 'A Lista de Schindler');
+INSERT INTO filmes (ano, classificacao, duracao, genero, plano_minimo, titulo) VALUES (1994, 12, 9, 'Drama', 'BASIC', 'Um Sonho de Liberdade');
+INSERT INTO filmes (ano, classificacao, duracao, genero, plano_minimo, titulo) VALUES (1994, 0, 7, 'Comédia', 'STANDARD', 'Forrest Gump - O Contador de Histórias');
+INSERT INTO filmes (ano, classificacao, duracao, genero, plano_minimo, titulo) VALUES (2008, 0, 6, 'Ação', 'STANDARD', 'Batman - O Cavaleiro Das Trevas');
+INSERT INTO filmes (ano, classificacao, duracao, genero, plano_minimo, titulo) VALUES (1999, 0, 6, 'Ficção', 'STANDARD', 'Matrix');
+INSERT INTO filmes (ano, classificacao, duracao, genero, plano_minimo, titulo) VALUES (2022, 0, 8, 'Ficção', 'PREMIUM', 'Avatar: O caminho da água');
+INSERT INTO filmes (ano, classificacao, duracao, genero, plano_minimo, titulo) VALUES (2023, 18, 8, 'Ação', 'PREMIUM', 'John Wick 4: Baba Yaga');
+INSERT INTO filmes (ano, classificacao, duracao, genero, plano_minimo, titulo) VALUES (2024, 14, 7, 'Ficção', 'PREMIUM', 'Duna 2');
+INSERT INTO filmes (ano, classificacao, duracao, genero, plano_minimo, titulo) VALUES (2023, 16, 10, 'Ficção', 'PREMIUM', 'Oppenheimer');
